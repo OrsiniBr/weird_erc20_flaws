@@ -4,7 +4,7 @@ pragma solidity ^0.8.20;
 import "forge-std/Test.sol";
 import "forge-std/console.sol";
 import "@openzeppelin/contracts/utils/cryptography/ECDSA.sol";
-import "../src/TransferProxyKeccakFixed.sol";
+import "../../src/TransferProxyKeccakFixed.sol";
 
 contract TransferProxyKeccakFixedTest is Test {
     using ECDSA for bytes32;

@@ -2,7 +2,7 @@
 pragma solidity ^0.8.20;
 
 import "forge-std/Test.sol";
-import "../src/ApproveProxyKeccakFixed.sol";
+import "../../src/ApproveProxyKeccakFixed.sol";
 
 contract ApproveProxyKeccakFixedTest is Test {
     ApproveProxyKeccakFixed public token;
